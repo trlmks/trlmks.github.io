@@ -5,6 +5,7 @@
 }
 body{
     background-color: #0E0E0F;
+    overflow-x: hidden;
     
 }
 /* bagian nav section =============================*/
