@@ -319,4 +319,31 @@ footer p{
     .about img{
         display: none;
     }
+    .about p{
+        font-size: 12px;
+    }
+    .apartice .kotak{
+        min-width:40%;
+        min-height: 140px;
+         background-color: #202020;
+         padding: 10px 0;
+         border-radius: 5px;
+         border: 2px solid white;
+         box-sizing: border-box;
+         align-items: center;
+         height:120px;
+         font-size: 12px;
+         margin-bottom: 20px;
+         
+     }
+     .works{
+         margin-top: 200px;
+     }
+     .container-works{
+         flex-wrap: wrap;
+     }
+     .container-works .kotak{
+         width: 120px;
+         height: 300px;
+     }
 }
