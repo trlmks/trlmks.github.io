@@ -353,8 +353,12 @@ footer p{
         width: 90%;
         
     }
+    .apartice .container-apartice{;
+        height: 200px;
+        margin-top: 10px;
+    }
     .apartice .kotak{
-       min-width:100px;
+       min-width:40%;
        min-height: 140px;
         background-color: #202020;
         padding: 10px 0;
@@ -364,6 +368,11 @@ footer p{
         align-items: center;
         height:120px;
         font-size: 12px;
+        margin-bottom: 20px;
         
     }
+    .contact{
+        margin-top: 200px;
+    }
+    
 }
