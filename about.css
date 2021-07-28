@@ -347,9 +347,10 @@ footer p{
     .about{
         margin: 10px 20px;
         height: 300px;
-        margin: 0;
+        margin: 0 20px;
     }
     .about .content{
-        width: 70vh;
+        width: 90%;
+        
     }
 }
