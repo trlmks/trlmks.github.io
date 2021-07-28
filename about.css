@@ -119,160 +119,102 @@ nav .contact-btn:hover{
     margin: 20px;
     text-align: left;
 }
-.area h1{
-    padding-bottom: 10px;
-}
-.expertice{
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    color: white;
-    background-color: #D72323;
-    padding: 20px;
-}
-/* resume */
-.h1resume{
-    text-align: center;
-    color: white;
-    
-}
-.wrap{
-    display: grid;
-    grid-template-areas: 'education experience'
-                        'kotak1 kotak2'
-                        'kotak3 kotak4'
-                        'kotak5 kotak6';
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 1fr 1fr;
-    row-gap: 50px;
-    margin: 0 100px;
-    color: rgb(0, 0, 0);
-    justify-items:center;
-    align-items: center;
-    
-}
-.resume{
-    margin: 20px;
-    padding-bottom: 100px;
-    
-}
-.h1resume{
-    padding: 50px;
-}
-.education{
-    grid-area: education;
-}
-.experience{
-    grid-area: experience;
-}
-.kotak{
-    background-color: #dbdbdb;
-    padding: 30px;
-    border-radius: 10px;
-    width: 200px;
-    height: 100px;
-    
-}
-.satu{
-    grid-area: kotak1;
-    
-}
-.dua{
-    grid-area: kotak2;
-}
-.tiga{
-    grid-area: kotak3;
-}
-.empat{
-    grid-area: kotak4;
-}
-.lima{
-    grid-area: kotak5;
-}
-.enam{
-    grid-area: kotak6;
-}
-.kotak p:nth-child(1){
-    font-size: 9px;
-}
-.kotak p:nth-child(3){
-    font-size: 12px;
-}
-.resume h3{
-    color: #ffffff;
-}
-.contactme{
-    color: white;
-    background-color: #3E3636;
-    padding-bottom: 100px;
+/* bagian apartice=================================== */
+.apartice{
+    height: 300px;
     padding-top: 20px;
 }
-.contactme h1{
-    border-bottom: 2px solid white;
-    margin-top: 20px;
-    margin:0 350px;
-}
-
-
-.form{
+.apartice h1{
     color: white;
-    font-size: 12px;
+    font-size: 36px;
+    text-align: center;
+}
+.apartice .container-apartice{
     display: flex;
-    margin-top: 50px;
-    margin-left: 40px;
-    position: relative;
- 
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 140px;
+    margin-top: 10px;
+    flex-wrap: wrap;
 }
-.contactme input{
-    width: 300px;
-    height: 30px;
-    color: rgb(0, 0, 0);
-    padding-left: 10px;
-    font-size: 16px;
+.apartice .kotak{
+    width:18% ;
+    background-color: #202020;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    align-items: center;
+    height:120px;
+    
+}
+/* resume section============================ */
+
+
+/* contact section=========================================== */
+.contact h1,.contact p{
+    color: white;
+    text-align: center;
+}
+.container-contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container-contact .form{
+    margin: 100px 0;
+}
+.form input{
+    display: block;
+    margin-bottom: 20px;
+    width: 240px;
     border-radius: 5px;
     border: none;
-    margin-bottom: 5px;
-}
-.contactme .coment{
-    margin-top: 20px;
-    height: 112px;
-    margin-left: 10px;
-    width: 290px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-}
-.submit{
-    position: absolute;
-    width: 630px;
     height: 40px;
-    left:0;
-    top: 155px;
-    background-color: #D72323;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
+    padding-left: 10px;
+}
+.form textarea{
+    display: block;
+    width: 240px;
     border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+.form button{
+    width: 248px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #D72323;
+    color: white;
+    cursor: pointer;
+}
+.container-contact .content{
+    color: white;
+    width: 360px;
+    height: 280px;
+    text-align: left;
+    margin-top: 100px;
+    background-color: #313131;
+    padding: 40px;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+.container-contact p{
+    text-align: left;
     margin-top: 10px;
 }
-button:hover{
-    background-color: #ffffff;
+/* bagian contact hover */
+.form button:hover{
+    background-color: white;
     color: #D72323;
 }
-.pc{
-    background-color: #202020;
-    color: white;
-    width: 240px;
-    height: 140px;
-    position: absolute;
-    padding: 40px;
-    right: 0;
-    transform: translateX(-40%)
-                translateY(-10%);
-                line-height: 20px;
-}
+/* footer section */
 footer{
-    background-color: #0E0E0F;
+    background-color: #313131;;
     color: white;
     display: flex;
     flex-direction: column;
