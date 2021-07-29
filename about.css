@@ -406,7 +406,22 @@ footer p{
 
     /* contact section========================= */
     .contact{
-        margin-top: 200px;
+
+    }
+    .contact h1{
+        margin: 10px 0;
+        padding: 0;
+    }
+    .container-contact{
+        margin-top: 0;
+        padding: 0;
+        
+    }
+    .container-contact .content{
+        margin-top: 0;
+    }
+    .container-contact .form{
+        margin-top: 20px;
     }
 
     
