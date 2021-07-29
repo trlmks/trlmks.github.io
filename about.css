@@ -361,12 +361,17 @@ footer p{
     }
     .about .content{
         width: 90%;
+        margin-top: 0;
         
+    }
+    .about h1{
+        margin: 0;
+        padding-bottom: 10px;
     }
     /* apartice section======================= */
     .apartice{
         height: 500px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .apartice .container-apartice{
         height: 200px;
