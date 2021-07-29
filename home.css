@@ -290,8 +290,36 @@ footer p{
 }
 /* ukuran tablet */
 @media screen and (max-width: 768px){
+    /* nav section ========================= */
     nav ul{
         width: 60%;
+    }
+    /* about section======================== */
+    .about{
+        height: 700px;
+    }
+    /* aprtice section ====================== */
+    /* apartice section============= */
+    .apartice{
+        height: 500px;
+    }
+    .apartice .container-apartice{
+        height: 200px;
+        margin-top: 10px;
+    }
+    .apartice .kotak{
+       min-width:40%;
+       min-height: 140px;
+        background-color: #202020;
+        padding: 10px 0;
+        border-radius: 5px;
+        border: 2px solid white;
+        box-sizing: border-box;
+        align-items: center;
+        height:120px;
+        font-size: 12px;
+        margin-bottom: 20px;
+        
     }
 }
 /* ukuran mobile */
@@ -315,6 +343,9 @@ footer p{
     }
     .menu-toggle{
         display: flex;
+    }
+    .about{
+        height: 300px;
     }
 
     .about .content{

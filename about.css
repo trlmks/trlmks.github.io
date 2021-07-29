@@ -293,11 +293,11 @@ footer p{
     }
     .about .content{
         left: 0;
-        transform: translate(00%);
-        width: 80vh;
-        position: relative;
         margin: 0 20px;
         font-size: 12px;
+        width: 90%;
+        position: static;
+        margin-left: 20%;
     }
     /* apartice section============= */
     .apartice{
