@@ -349,6 +349,7 @@ footer p{
     .menu-toggle{
         display: flex;
     }
+    /* about section========================= */
     .about{
         height: 300px;
         margin: 0 10px;
@@ -365,6 +366,7 @@ footer p{
     .about p{
         font-size: 12px;
     }
+    /* apartice section========================= */
     .apartice .kotak{
         min-width:40%;
         min-height: 140px;
@@ -379,8 +381,11 @@ footer p{
          margin-bottom: 20px;
          
      }
+     /* works section======================== */
      .works{
-         height: 600px;
+         height: 500px;
+         margin: 0;
+         padding: 0;
      }
      .works h1{
     
@@ -403,5 +408,24 @@ footer p{
      }
      .container-works .kotak p{
          font-size: 9px;
+     }
+     /* contact===================== */
+     .contact{
+
+     }
+     .contact h1{
+         margin: 10px 0;
+         padding: 0;
+     }
+     .container-contact{
+         margin-top: 0;
+         padding: 0;
+         
+     }
+     .container-contact .content{
+         margin-top: 0;
+     }
+     .container-contact .form{
+         margin-top: 20px;
      }
 }
