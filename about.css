@@ -355,7 +355,7 @@ footer p{
     }
     /* about section==================== */
     .about{
-        margin: 10px 20px;
+        margin:0px 20px;
         height: 400px;
         margin: 0 20px;
     }
@@ -366,6 +366,7 @@ footer p{
     /* apartice section======================= */
     .apartice{
         height: 500px;
+        margin-top: 40px;
     }
     .apartice .container-apartice{
         height: 200px;
