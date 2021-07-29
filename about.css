@@ -151,6 +151,37 @@ nav .contact-btn:hover{
     
 }
 /* resume section============================ */
+.resume{
+    color: white;
+    text-align: center;
+    height: 700px;
+}
+.resume h1{
+    font-size: 36px;
+}
+.resume .container-resume{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.container-resume .kotak{
+    height: 140px;
+    width: 280px;
+    border: white 2px solid;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.container-resume .kotak p:first-child{
+    font-size: 9px;
+}
+.container-resume .kotak p:last-child{
+    font-size: 12px;
+}
 
 
 /* contact section=========================================== */
@@ -268,62 +299,40 @@ footer p{
         margin: 0 20px;
         font-size: 12px;
     }
-    .area h1{
-        font-size: 20px;
+    /* apartice section============= */
+    .apartice{
+        height: 500px;
     }
-    .expertice{
-        height: 80px;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: space-evenly;
+    .apartice .container-apartice{
+        height: 200px;
+        margin-top: 10px;
+    }
+    .apartice .kotak{
+       min-width:40%;
+       min-height: 140px;
+        background-color: #202020;
+        padding: 10px 0;
+        border-radius: 5px;
+        border: 2px solid white;
+        box-sizing: border-box;
         align-items: center;
-    }
-    .expertice .item{
-       width: 60px;
-       height: 60px;
-        font-size: 9px;
-    }
-    .expertice img{
-        width: 40%;
-        height: 40%;
-    }
-    .h1resume{
-        font-size: 20px;
-    }
-    .wrap{
-        display: flex;
-        flex-direction: column;
-        font-size: 9px;
-    }
-    .wrap h3{
+        height:120px;
         font-size: 12px;
+        margin-bottom: 20px;
+        
     }
-    .contactme h1{
-        font-size: 12px;
-        margin: 0;
-        text-align: center;
-    }
-    .contactme .form{
-        display: flex;
-        flex-direction: column;
-    }
-    .pc{
-        display: none;
-    }
-    .kanan{
-        position: relative;
-        margin: 0;
-    }
-    .submit{
-        position: absolute;
-        bottom: 0;
-        transform: translateY(10%);
-        width: 120px;
-    }
-}
+/* resume==================================== */
+
+
+
+
+/* conttact section========================== */
+    
+
+
 /* ukuran mobile */
 @media screen and (max-width: 576px){
+    /* nav section==================== */
     nav ul{
         position: absolute;
         right: 0;
@@ -344,6 +353,7 @@ footer p{
     .menu-toggle{
         display: flex;
     }
+    /* about section==================== */
     .about{
         margin: 10px 20px;
         height: 400px;
@@ -353,7 +363,11 @@ footer p{
         width: 90%;
         
     }
-    .apartice .container-apartice{;
+    /* apartice section======================= */
+    .apartice{
+        height: 500px;
+    }
+    .apartice .container-apartice{
         height: 200px;
         margin-top: 10px;
     }
@@ -371,8 +385,23 @@ footer p{
         margin-bottom: 20px;
         
     }
+    /* resume section============================ */
+    .resume{
+        color: white;
+        text-align: center;
+        height: 1200px;
+    }
+    .resume h3{
+        font-size: 16px;
+    }
+
+
+
+
+    /* contact section========================= */
     .contact{
         margin-top: 200px;
     }
+
     
 }
