@@ -220,6 +220,7 @@ footer p{
     }
     .works h1{
         font-size: 16px;
+        margin: 5px;
     }
     .container-works{
         margin-top: 20px;
@@ -227,6 +228,7 @@ footer p{
         height: 500px;
         grid-template-areas: 'satu satu dua dua'
                             'tiga tiga empat empat';
+        gap: 8px;
     }
     .kotak-empat{
         grid-area: empat;
