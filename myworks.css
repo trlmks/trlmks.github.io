@@ -124,7 +124,8 @@ nav .contact-btn:hover{
 }
 .kotak-satu{
     grid-area: satu;
-    background-image: url(image/Group\ 84.png);
+    display: flex;
+    background-color: #0CECDD;
     background-size: cover;
     border-radius: 10px 0 0 0;
     color: white;
@@ -133,29 +134,42 @@ nav .contact-btn:hover{
 }
 .kotak-dua{
     grid-area: dua;
-    background-image: url(image/Group\ 81.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: ;
+    background-color: #C400FF;
     border-radius:0 10px 0 0px;
-    padding: 50px 10px;
     font-size: 26px;
+    font-weight: bold;
     color: white;
+    overflow: hidden;
+    padding: 20px;
+}
+.kotak-dua img{
+    transform: rotate(45deg);
 }
 .kotak-tiga{
     grid-area: tiga;
-    background-image: url(image/Group\ 85.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+    background-color: #FFF338;
     border-radius:0 0 0px 10px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
 }
 .kotak-empat{
     grid-area: empat;
-    background-image: url(image/Group\ 86.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #FF67E7;
     border-radius:0 0 10px 0;
+    display: flex;
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+}
+.kotak-empat img{
+    width:336px;
+    height: 669px;
 }
 /* bagian hover===================== */
 
