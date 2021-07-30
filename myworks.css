@@ -102,7 +102,6 @@ nav .contact-btn:hover{
 /* section works================================= */
 .works{
     margin-top: 180px;
-    height: 1600px;
 }
 .works h1{
     font-size: 60px;
@@ -131,6 +130,7 @@ nav .contact-btn:hover{
     padding: 50px;
     font-size: 44px;
     font-weight: bold;
+    overflow: hidden;
 }
 .kotak-dua{
     grid-area: dua;
@@ -171,7 +171,37 @@ nav .contact-btn:hover{
     width:336px;
     height: 669px;
 }
-/* bagian hover===================== */
+/* study case section=================== */
+.studycase{
+    width: 60%;
+    background-color: #313131;
+    color: white;
+    margin: 0 auto;
+    padding: 40px;
+}
+.studycase ul li{
+    list-style:circle;
+}
+.studycase p{
+    margin-bottom: 40px;
+}
+.studycase ul{
+    margin-bottom: 50px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.dua img{
+    height: 335px ;
+    width: 180px;
+    border-radius: 10px;
+}
+.tiga{
+    display: block;
+
+}
 
 
 
@@ -263,21 +293,17 @@ footer p{
         grid-template-areas: 'satu satu dua dua'
                             'tiga tiga empat empat';
         gap: 8px;
+        
     }
-    .kotak-empat{
-        grid-area: empat;
-        background-image: url(image/Group\ 86.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: -250px;
-        border-radius:0 0 10px 0;
+    .container-works p{
+        font-size: 20px;
+        font-weight: bold;
     }
-    .kotak-satu{
-        grid-area: satu;
-        background-image: url(image/Group\ 84.png);
-        background-size: cover;
-        border-radius: 10px 0 0 0;
-        background-position: -260px;
+    .journey{
+        width: 100%;
+    }
+    .content{
+        display: block;
     }
 
 }
