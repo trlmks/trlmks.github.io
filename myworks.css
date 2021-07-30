@@ -127,14 +127,20 @@ nav .contact-btn:hover{
     background-image: url(image/Group\ 84.png);
     background-size: cover;
     border-radius: 10px 0 0 0;
+    color: white;
+    padding: 50px;
+    font-size: 36px;
 }
 .kotak-dua{
     grid-area: dua;
     background-image: url(image/Group\ 81.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: ;
     border-radius:0 10px 0 0px;
+    padding: 50px 10px;
+    font-size: 26px;
+    color: white;
 }
 .kotak-tiga{
     grid-area: tiga;
@@ -151,6 +157,10 @@ nav .contact-btn:hover{
     background-size: cover;
     border-radius:0 0 10px 0;
 }
+/* bagian hover===================== */
+
+
+
 /* footer section */
 footer{
     background-color: #313131;;
