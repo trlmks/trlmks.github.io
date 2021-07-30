@@ -202,6 +202,9 @@ nav .contact-btn:hover{
     display: block;
 
 }
+.empat img, .journey{
+    border-radius: 10px;
+}
 
 
 
@@ -241,8 +244,29 @@ footer p{
 
 
 /* responsive break point======================= */
+/* tablet =========================== */
 
+@media screen and (max-width: 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        font-family: Poppins;
+        list-style: none;
+    }
 
+    /* nav section ========================= */
+    nav ul{
+        width: 60%;
+    }
+    /* bagian study case ============================*/
+    .journey{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* smartphone =================================== */
 
 @media screen and (max-width: 576px){
 
@@ -299,11 +323,18 @@ footer p{
         font-size: 20px;
         font-weight: bold;
     }
+    /* bagian study case======================================== */
+    .studycase{
+        padding: 10px;
+    }
     .journey{
         width: 100%;
     }
     .content{
         display: block;
+    }
+    .studycase ul{
+        margin-left: 20px;
     }
 
 }
