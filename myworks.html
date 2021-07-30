@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="myworks.css">
+    <title>My Works</title>
+</head>
+<body>
+    <nav>
+        <p class="logo">Tri Lumaksono</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a class="active" href="myworks.html">My Works</a></li>
+            <li><a class="contact-btn" href="">Contact Me</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <section class="works">
+        <h1>The most amazing project<br> I've worked on so far.</h1>
+        <div class="container-works">
+            <div class="kotak-satu"></div>
+            <div class="kotak-dua"></div>
+            <div class="kotak-tiga"></div>
+            <div class="kotak-empat"></div>
+        </div>
+    </section>
+    <footer>
+        <h1>Going-To Internet</h1>
+        <p>I makeas soon as possibale. You really like my work, if you don't I change this until
+            like I give you seticfaction result</p>
+            <div class="sosmed">
+                <a href="https://wa.me/6285156893284" target="_blank"><img src="image/Vector.png" alt=""></a>
+                <a href="https://twitter.com/trlmks" target="_blank"><img src="image/Vector (1).png" alt=""></a>
+                <a href="https://web.facebook.com/mbel.ziekzak/" target="_blank"><img src="image/Vector (2).png" alt=""></a>
+                <a href="https://www.instagram.com/trlmks/" target="_blank"><img src="image/Vector (3).png" alt=""></a>
+                    <p>Copy Right by Going-To Internet</p>
+            </div>
+    
+    </footer>
+    
+    
+    
+    <script>
+        const toggle=document.querySelector('.menu-toggle input');
+        const ul = document.querySelector('nav ul');
+        
+        toggle.addEventListener('click',function(){
+            ul.classList.toggle('slide');
+        })
+    </script>
+</body>
+</html>
