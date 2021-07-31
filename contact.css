@@ -178,6 +178,23 @@ footer p:last-child{
 footer p{
     font-size: 12px;
 }
+/* responsive break point======================= */
+/* tablet =========================== */
+
+@media screen and (max-width: 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        font-family: Poppins;
+        list-style: none;
+    }
+
+    /* nav section ========================= */
+    nav ul{
+        width: 60%;
+    }
+}
 
 /* ukuran mobile */
 @media screen and (max-width: 576px){
@@ -202,9 +219,6 @@ footer p{
         display: flex;
     }
     /* contact===================== */
-    .contact{
-
-    }
     .contact h1{
         margin: 10px 0;
         padding: 0;
