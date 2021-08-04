@@ -170,6 +170,8 @@ nav .contact-btn:hover{
 .kotak-empat img{
     width:336px;
     height: 669px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 /* study case section=================== */
 .studycase{
