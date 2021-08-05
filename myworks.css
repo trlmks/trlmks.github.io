@@ -156,6 +156,9 @@ nav .contact-btn:hover{
     overflow: hidden;
     padding: 20px;
 }
+.kotak-tiga img{
+    width: 100%;
+}
 .kotak-empat{
     grid-area: empat;
     background-color: #FF67E7;
@@ -319,10 +322,15 @@ footer p{
         margin-top: 30px;
         width: 300px;
         height: 500px;
-        grid-template-areas: 'satu satu dua dua'
-                            'tiga tiga empat empat';
+        grid-template-areas: "satu" "dua" "tiga" "empat";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
         gap: 8px;
         
+    }
+    .kotak-dua,.kotak-empat,.kotak-satu,.kotak-tiga{
+        border-radius: 2px;
+        padding: 2px;
     }
     .container-works p{
         font-size: 20px;
