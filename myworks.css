@@ -279,7 +279,7 @@ footer p{
         margin-top: 30px;
         grid-template-areas: "satu" "dua" "empat" "tiga";
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 5fr 5fr 2fr ;
+        grid-template-rows: 6fr 5fr 5fr 2fr ;
         gap: 8px;
         margin: 0 5%;
         width: 100%;
@@ -290,10 +290,12 @@ footer p{
         padding: 10px;
         display: flex;
         flex-direction: row;
+        overflow: hidden;
     }
     .container-works img{
         object-fit: contain;
         border-radius: 10px;
+
     }
     .kotak-dua img{
         transform: rotate(0deg);
