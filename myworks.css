@@ -115,7 +115,7 @@ nav .contact-btn:hover{
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 60% 40%;
     width: 80%;
-    height: 800px;
+    height: 1000px;
     margin: 50px auto;
     gap: 20px;
     
@@ -124,13 +124,12 @@ nav .contact-btn:hover{
     grid-area: satu;
     display: flex;
     background-color: #0CECDD;
-    background-size: cover;
     border-radius: 10px 0 0 0;
     color: white;
     padding: 50px;
     font-size: 44px;
     font-weight: bold;
-    overflow: hidden;
+    flex-direction: column;
 }
 .kotak-dua{
     grid-area: dua;
@@ -169,49 +168,7 @@ nav .contact-btn:hover{
     color: white;
     overflow: hidden;
     padding: 20px;
-}
-.kotak-empat img{
-    width:336px;
-    height: 669px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-/* study case section=================== */
-.studycase{
-    width: 60%;
-    background-color: #313131;
-    color: white;
-    margin: 0 auto;
-    padding: 40px;
-}
-.studycase ul li{
-    list-style:circle;
-}
-.studycase p{
-    margin-bottom: 40px;
-}
-.studycase ul{
-    margin-bottom: 50px;
-}
-.content{
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-}
-.dua img{
-    height: 335px ;
-    width: 180px;
-    border-radius: 10px;
-}
-.tiga{
-    display: block;
-
-}
-.empat img, .journey{
-    border-radius: 10px;
-}
-.studycase .final{
-    width: 100%;
+    flex-direction: column;
 }
 
 
@@ -310,30 +267,39 @@ footer p{
     /* section works=================================== */
     
     .works{
-        margin-top: 40px;
-        height: 700px;
+        margin: 40px 0;
+        width: 100%;
     }
     .works h1{
-        font-size: 26px;
+        font-size: 32px;
         margin: 5px;
         margin-left: 40px;
     }
     .container-works{
         margin-top: 30px;
-        width: 300px;
-        height: 500px;
-        grid-template-areas: "satu" "dua" "tiga" "empat";
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-areas: "satu" "dua" "empat" "tiga";
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 5fr 5fr 2fr ;
         gap: 8px;
+        margin: 0 5%;
+        width: 100%;
         
     }
     .kotak-dua,.kotak-empat,.kotak-satu,.kotak-tiga{
         border-radius: 2px;
-        padding: 2px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .container-works img{
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    .kotak-dua img{
+        transform: rotate(0deg);
     }
     .container-works p{
-        font-size: 20px;
+        font-size: 22px;
         font-weight: bold;
     }
     /* bagian study case======================================== */
