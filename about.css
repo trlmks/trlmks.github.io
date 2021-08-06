@@ -333,6 +333,9 @@ footer p{
 /* ukuran mobile */
 @media screen and (max-width: 576px){
     /* nav section==================== */
+    nav{
+        margin:0 1%;
+    }
     nav ul{
         position: absolute;
         right: 0;

@@ -244,6 +244,9 @@ footer p{
         list-style: none;
     }
     /* nav section==================== */
+    nav{
+        margin:0 1%;
+    }
     nav ul{
         position: absolute;
         right: 0;
