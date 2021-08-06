@@ -131,6 +131,10 @@ nav .contact-btn:hover{
     font-weight: bold;
     flex-direction: column;
 }
+.kotak-satu a:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
 .kotak-dua{
     grid-area: dua;
     background-color: #C400FF;

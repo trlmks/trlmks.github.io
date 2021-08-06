@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="studycase1.css">
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav section -->
+    <nav>
+        <p class="logo">Tri Lumaksono</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="myworks.html">My Works</a></li>
+            <li><a class="contact-btn" href="contact.html">Contact Me</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <!-- end nav section -->
+    <!-- section studycase -->
+    <section class="studycase" style="width: 80%;margin: 0 auto;padding: 2%;">
+        <h1 style="color: white; font-size: 42px; text-align: center; margin: 2em 0 2em 0;">Online Store</h1>
+        <a href="https://trlmks.github.io/onlineshop/"><img style="display: block; margin: 0 auto; width: 100%;" src="image/project/Mask Group.png" alt="online store"></a>
+        <p style="font-size: 10px; margin-left: 2%;">click gambar diatas untuk mengunjungi website</p>
+        <div class="container-studycase"></div>
+        <h1 style="margin-top: 2em;">Study Case</h1>
+        <h3>Membuat Wire frame</h3>
+        <p>langkah awal yang saya lakukan sebelum saya mendevelop design ke code saya membuat wire frame terlebih dahulu karna itu juga membantu saya agar bisa bekerja dengan tim nantinya, selain itu membuat wire frame terlebih dahulu memang sangatlah berguna dan mengurangi waktu kita untuk melamun memikirkan design dan layout.</p>
+        <div class="wireframe">
+            <img src="image/project/online store/home page.png" alt="home page">
+            <img src="image/project/online store/shop page.png" alt="shop page">
+            <img src="image/project/online store/contact page.png" alt="contact page">
+            <img src="image/project/online store/about page.png" alt="about page">
+            <img src="image/project/online store/store page.png" alt="store page">
+        </div>
+        <p>Setelah wireframe sudah selesai saya lanjutkan mendevelop tampilan web Apps yang saya buat, project ini saya selesaikan 2 hari yaitu 1 hari untuk UI design dan 1 hari untuk mendevelop tampilannya. Saya sadar masih banyak kekurangan di web apps yang saya buat ini, berikut link web apps yang saya kerjakan: https://trlmks.github.io/onlineshop/ atau <a href="https://trlmks.github.io/onlineshop/" target="_blank">Click disini!</a> </p>
+        
+    </section>
+    <!-- section script -->
+    <script>
+        const toggle=document.querySelector('.menu-toggle input');
+        const ul = document.querySelector('nav ul');
+        
+        toggle.addEventListener('click',function(){
+            ul.classList.toggle('slide');
+        })
+    </script>
+    <!-- end script -->
+</body>
+</html>
