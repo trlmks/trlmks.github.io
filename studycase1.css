@@ -99,21 +99,120 @@ nav .contact-btn:hover{
 }
 /* end nav section */
 /* study case section */
-.studycase{
-    background-color: #b1b1b1;
+.container-studycase{
+    margin-top: 5em;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+.content-studycase{
+    margin-top: 3em;
+}
+.container-studycase p{
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #cacaca;
+}
+.container-img{
     width: 100%;
-    margin: 0 5px 0 5px;
+    display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
-.container-studycase ul li img{
-    width: 10%;
-    border-radius: 10px;
-}
-.wireframe{
-    width: 100%;
-    margin-top: 2em;
-
-}
-.wireframe img{
+.container-img img{
     width: 40%;
-    margin-bottom: 20px;
+    margin: 1em;
+    object-fit: contain;
+}
+/* footer section */
+footer{
+    background-color: #313131;;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 0 10px 0;
+}
+footer .header{
+    border-bottom: 2px solid white;
+}
+footer button{
+    width: 120px;
+    height: 40px;
+    margin: 10px 0;
+    background-color: #D72323;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer p:last-child{
+    font-size: 9px;
+}
+footer p{
+    font-size: 12px;
+}
+/* responsive breakpoint */
+@media screen and (max-width: 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        font-family: Poppins;
+        list-style: none;
+    }
+
+    /* nav section ========================= */
+    nav ul{
+        width: 60%;
+    }
+    .container-studycase p{
+        margin-bottom: 1em;
+        font-size: 1em;
+        color: #cacaca;
+    }
+}
+@media screen and (max-width: 576px){
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        font-family: Poppins;
+        list-style: none;
+    }
+    /* nav section==================== */
+    nav{
+        margin:0 1%;
+    }
+    nav ul{
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        background-color: #1f201f;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        top: 0;
+        z-index: 1;
+        opacity: 0;
+        transition: all 1s;
+        justify-content: space-around; 
+    }
+    nav ul.slide{
+        opacity: 1;
+    }
+    .menu-toggle{
+        display: flex;
+    }
+    .container-studycase p{
+        margin-bottom: 1em;
+        font-size: 1em;
+        color: #cacaca;
+    }
 }
