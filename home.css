@@ -412,7 +412,9 @@ footer p{
          grid-template-rows: 15em 15em 15em;
      }
      .container-works img{
+         height: 100%;
          width: 100%;
+         object-fit: cover;
      }
      .content-project a{
         top: 8%;
