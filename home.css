@@ -414,6 +414,9 @@ footer p{
      .container-works img{
          width: 100%;
      }
+     .content-project a{
+        top: 8%;
+       }
      /* contact===================== */
      .contact{
          margin-top: 100px;

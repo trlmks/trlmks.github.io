@@ -261,4 +261,7 @@ footer p{
     .container-works img{
         width: 100%;
     }
+    .content-project a{
+     top: 8%;
+    }
 }
