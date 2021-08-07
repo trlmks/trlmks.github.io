@@ -101,79 +101,58 @@ nav .contact-btn:hover{
 }
 /* section works================================= */
 .works{
-    margin-top: 180px;
 }
 .works h1{
-    font-size: 60px;
+    font-size: 32px;
+    text-align: center;
     color: white;
-    margin-left: 80px;
+    margin-bottom: 20px;
 }
 .container-works{
     display: grid;
-    grid-template-areas: "satu satu satu dua"
-                        "tiga empat empat empat";
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 60% 40%;
-    width: 80%;
-    height: 1000px;
-    margin: 50px auto;
-    gap: 20px;
+    grid-template-areas: "satu dua"
+                        "tiga dua";
+    grid-template-columns: 45% 30% ;
+    grid-template-rows: 45% 50%;
+    width: 90%;
+    margin: 0 auto;
+    gap: 2%;
+    justify-content: center;
+}
+.container-works .kotak{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.satu{
+    grid-area: satu;
+    position: relative;
+  
+}
+.dua{
+    grid-area: dua;
+    position: relative;
     
 }
-.kotak-satu{
-    grid-area: satu;
-    display: flex;
-    background-color: #0CECDD;
-    border-radius: 10px 0 0 0;
-    color: white;
-    padding: 50px;
-    font-size: 44px;
-    font-weight: bold;
-    flex-direction: column;
-}
-.kotak-satu a:hover{
-    transform: scale(1.1);
-    transition: .4s;
-}
-.kotak-dua{
-    grid-area: dua;
-    background-color: #C400FF;
-    border-radius:0 10px 0 0px;
-    font-size: 26px;
-    font-weight: bold;
-    color: white;
-    overflow: hidden;
-    padding: 20px;
-}
-.kotak-dua img{
-    transform: rotate(45deg);
-}
-.kotak-tiga{
+.tiga{
     grid-area: tiga;
-    background-color: #FFF338;
-    border-radius:0 0 0px 10px;
-    color: white;
-    font-size: 26px;
-    font-weight: bold;
-    color: white;
-    overflow: hidden;
-    padding: 20px;
+    position: relative;
+
 }
-.kotak-tiga img{
-    width: 100%;
-}
-.kotak-empat{
-    grid-area: empat;
-    background-color: #FF67E7;
-    border-radius:0 0 10px 0;
-    display: flex;
-    font-size: 44px;
-    font-weight: bold;
+.content-project a{
+    position: absolute;
     color: white;
-    overflow: hidden;
-    padding: 20px;
-    flex-direction: column;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% ,0);
+    text-decoration: none;
 }
+.container-works img{
+    opacity: 70%;
+}
+.container-works .kotak img:hover{
+    opacity: 1;
+}
+
 
 
 
@@ -273,56 +252,13 @@ footer p{
     }
     /* section works=================================== */
     
-    .works{
-        margin: 40px 0;
-        width: 100%;
-    }
-    .works h1{
-        font-size: 32px;
-        margin: 5px;
-        margin-left: 40px;
-    }
     .container-works{
-        margin-top: 30px;
-        grid-template-areas: "satu" "dua" "empat" "tiga";
+        width: 90%;
+        grid-template-areas:"satu" "dua" "tiga";
         grid-template-columns: 100%;
-        grid-template-rows: 6fr 5fr 5fr 2fr ;
-        gap: 8px;
-        margin: 0 5%;
-        width: 100%;
-        
-    }
-    .kotak-dua,.kotak-empat,.kotak-satu,.kotak-tiga{
-        border-radius: 2px;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        overflow: hidden;
+        grid-template-rows: 15em 15em 15em;
     }
     .container-works img{
-        object-fit: contain;
-        border-radius: 10px;
-
-    }
-    .kotak-dua img{
-        transform: rotate(0deg);
-    }
-    .container-works p{
-        font-size: 22px;
-        font-weight: bold;
-    }
-    /* bagian study case======================================== */
-    .studycase{
-        padding: 10px;
-    }
-    .journey{
         width: 100%;
     }
-    .content{
-        display: block;
-    }
-    .studycase ul{
-        margin-left: 20px;
-    }
-
 }
