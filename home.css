@@ -177,7 +177,6 @@ nav .contact-btn:hover{
 }
 /* bagian works=============================== */
 .works{
-    margin-bottom: 100px;
 }
 .works h1{
     font-size: 32px;
@@ -185,40 +184,51 @@ nav .contact-btn:hover{
     color: white;
     margin-bottom: 20px;
 }
-.works hr{
-    width: 200px;
-    display: block;
-    margin: auto;
-    margin-bottom: 100px;
-}
 .container-works{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.container-works .kotak img{
-    width: 400px;
-    height: 600px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas: "satu dua"
+                        "tiga dua";
+    grid-template-columns: 45% 30% ;
+    grid-template-rows: 45% 50%;
+    width: 90%;
+    margin: 0 auto;
+    gap: 2%;
+    justify-content: center;
 }
 .container-works .kotak{
-    border-radius: 10px;
-    border: 5px solid white;
-    padding: 10px;
-    margin-bottom: 20px;
     overflow: hidden;
+    border-radius: 10px;
 }
-.works a{
+.satu{
+    grid-area: satu;
+    position: relative;
+  
+}
+.dua{
+    grid-area: dua;
+    position: relative;
+    
+}
+.tiga{
+    grid-area: tiga;
+    position: relative;
+
+}
+.content-project a{
+    position: absolute;
     color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% ,0);
     text-decoration: none;
-    text-align: center;
 }
-.container-works .kotak:hover{
-    opacity: 50%;
+.container-works img{
+    opacity: 70%;
 }
+.container-works .kotak img:hover{
+    opacity: 1;
+}
+
 /* contact section=========================================== */
 .contact h1,.contact p{
     color: white;
@@ -395,6 +405,15 @@ footer p{
          
      }
      /* works section======================== */
+     .container-works{
+         width: 90%;
+         grid-template-areas:"satu" "dua" "tiga";
+         grid-template-columns: 100%;
+         grid-template-rows: 15em 15em 15em;
+     }
+     .container-works img{
+         width: 100%;
+     }
      /* contact===================== */
      .contact{
          margin-top: 100px;
